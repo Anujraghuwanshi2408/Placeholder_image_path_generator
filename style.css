@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+     flex-direction: column; 
+    justify-content: space-around; 
+    align-items: center;
+    background: linear-gradient(
+        45deg,
+        hsl(236, 100%, 80%, 0.2),
+        rgba(205, 155, 225, 0.1)
+);
+
+}
+
+img {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin-bottom: 4.8rem;
+}
+p{
+
+}
+
+label {
+    margin-top: 1rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+textarea {
+    padding: .2rem .5rem;
+}
+
+ .parent {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 2.4rem;
+        }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 2rem;
+}
+
+.style1 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 5rem;
+    height: 5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.style1::-webkit-color-swatch {
+    border-radius: .5rem;
+    border: none;
+}
+
+.style1::-moz-color-swatch {
+    border-radius: .5rem;
+    border: none;
+}

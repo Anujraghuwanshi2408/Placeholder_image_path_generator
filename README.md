@@ -1,0 +1,1 @@
+# Placeholder_image_path_generator
